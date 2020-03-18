@@ -3,7 +3,7 @@
 //
 #include <iostream>
 
-using namespace std
+using namespace std;
 
 class Mesero{
 
@@ -15,6 +15,6 @@ public:
         cout << "Enviar orden a la cocina" << endl;
     }
     void servirCliente() {
-        const << "Cliente servido" << endl;
+        cout << "Cliente servido" << endl;
     }
 };

@@ -3,4 +3,5 @@ project(TEII)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TEII main.cpp)
+#add_executable(TEII Facade.cpp)
+add_executable(TEII Abstract_Factory.cpp)

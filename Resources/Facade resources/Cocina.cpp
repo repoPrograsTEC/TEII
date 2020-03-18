@@ -2,7 +2,7 @@
 // Created by daniel on 17/3/20.
 //
 #include <iostream>
-using namespace std
+using namespace std;
 
 class Cocina{
 

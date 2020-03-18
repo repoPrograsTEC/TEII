@@ -2,8 +2,8 @@
 // Created by daniel on 17/3/20.
 //
 
-#include "Subsistema/Mesero.cpp"
-#include "Subsistema/Cocina.cpp"
+#include "Resources/Facade resources/Mesero.cpp"
+#include "Resources/Facade resources/Cocina.cpp"
 
 class Facade{
 private:
@@ -21,3 +21,10 @@ public:
         cocina.lavarPlatos();
     }
 };
+
+int main(){
+    Facade facade = Facade();
+    facade.ordenarComida();
+
+    return 0;
+}
